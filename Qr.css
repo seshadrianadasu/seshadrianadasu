@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Outfit:wght@400;700&family=Poppins:wght@100;400&display=swap');
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:hsl(212, 454%, 89%);
+    font-family: "outfit",sans-serif;
+    font-size: 15px;
+    display: flex;
+     flex-direction: column; 
+    align-items: center;
+     justify-content: center; 
+    min-height: 100vh;
+ }
+ .container{
+   max-width: 360px;
+    margin: 0 auto; 
+   }
+ .Qrcontainer{
+   background-color: hsl(0, 0%, 100%);
+   padding: 18px;
+   border-radius: 17px;
+   text-align: center;
+   margin: 0 1rem;
+   box-shadow:5px 5px 5px rgba(0,0,0,0.05); 
+ }
+ img{
+    width: 100%;
+    border-radius: 0.625rem;
+
+ }
+ .container h1{
+    color: hsl(220, 15%, 55%, );
+    font-size: 23px;
+    padding: 10px;
+ }
+ .container p{
+    color: hsl(218, 44%, 22%);
+    font-size: 18px;
+ }
+ .bottom{
+   font-size: 15px;
+   margin-top: 12px;
+ }
+@media(min-width: 500px){
+   .container{
+      width: 400px;
+   }
+} 
