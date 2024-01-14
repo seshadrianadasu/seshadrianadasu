@@ -69,8 +69,7 @@ body{
     font-weight: 10px;
     font-size: 1rem;
     line-height: 1.5rem;
-    opacity: 0.8;
-    
+    opacity: 0.8; 
 }
 .price{
     display: flex;
@@ -85,8 +84,7 @@ body{
 }
 .smalltext-price{
     text-decoration:line-through; 
-    color: hsl(228, 12%, 48%);
-    
+    color: hsl(228, 12%, 48%); 
 }
 .button{
     background-color:hsl(158, 36%, 37%);
@@ -96,8 +94,7 @@ body{
     font-weight: bold;
     display: flex;
     justify-content: center;
-    gap: 8px;
-    
+    gap: 8px; 
 }
 .cart{
     width: 15px; 
@@ -115,8 +112,5 @@ img{
 .big-text{
     font-size: 15px;
 }
-
-
-
 }
 
